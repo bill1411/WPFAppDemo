@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp.ComboBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="ComboBox" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ComboBox x:Name="combobox" SelectionChanged="ComboBox_SelectionChanged" Loaded="ComboBox_Loaded" Margin="84,80,539,298" />
+        <ComboBox x:Name="combobox2" SelectionChanged="Combobox2_SelectionChanged" Loaded="Combobox2_Loaded" Margin="351,80,272,298" />
+        <ComboBox x:Name="combobox3" SelectionChanged="Combobox3_SelectionChanged" Loaded="Combobox3_Loaded" Margin="84,255,539,123" />
+    </Grid>
+</Window>

@@ -1,0 +1,56 @@
+﻿<Window x:Class="WpfApp.Grid"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="Grid" Height="450" Width="800">
+    <!--布局控件-->
+    <Grid>
+        <!--自定义行两行-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="26*"/>
+        </Grid.RowDefinitions>
+        <!--自定义列两列-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="15*"/>
+        </Grid.ColumnDefinitions>
+        <!--最顶上的logo(第一行,跨两列)-->
+        <Grid Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Background="#FFC6E0DE">
+            <TextBlock Text="学生安全教育平台" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="20" Padding="20"  Foreground="White"/>
+        </Grid>
+        <!--实际的内容，包含左侧导航栏(第二行,第一列)-->
+        <Grid Grid.Row="1" Grid.Column="0" >
+            <!--第二行第一列又细分为十行-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Button Grid.Row="0" Content="首页"/>
+            <Button Grid.Row="1" Content="分类训练"/>
+            <Button Grid.Row="2" Content="实战模拟"/>
+            <Button Grid.Row="3" Content="实战测试"/>
+            <Button Grid.Row="4" Content="查看历史答卷"/>
+            <Button Grid.Row="5" Content="试卷规则管理"/>
+            <Button Grid.Row="6" Content="试题管理"/>
+            <Button Grid.Row="7" Content="考试管理"/>
+            <Button Grid.Row="8" Content="权限管理"/>
+            <Button Grid.Row="9" Content="系统设置"/>
+            <Button Grid.Row="10" Content="退出系统" Background="#FF2EA8EE"/>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Label Content="这里是主内容" />
+        </Grid>
+    </Grid>
+</Window>
