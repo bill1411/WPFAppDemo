@@ -24,7 +24,6 @@ C:\Users\YH\source\repos\WpfAppDemo\WpfApp\obj\Debug\DataGrid.baml
 D:\Project\WPFDemo\WpfApp\bin\Debug\WpfApp.exe.config
 D:\Project\WPFDemo\WpfApp\bin\Debug\WpfApp.exe
 D:\Project\WPFDemo\WpfApp\bin\Debug\WpfApp.pdb
-D:\Project\WPFDemo\WpfApp\obj\Debug\WpfApp.csprojAssemblyReference.cache
 D:\Project\WPFDemo\WpfApp\obj\Debug\ComboBox.g.cs
 D:\Project\WPFDemo\WpfApp\obj\Debug\DataGrid.g.cs
 D:\Project\WPFDemo\WpfApp\obj\Debug\Grid.g.cs
@@ -41,6 +40,10 @@ D:\Project\WPFDemo\WpfApp\obj\Debug\RedioButton.baml
 D:\Project\WPFDemo\WpfApp\obj\Debug\WpfApp.g.resources
 D:\Project\WPFDemo\WpfApp\obj\Debug\WpfApp.Properties.Resources.resources
 D:\Project\WPFDemo\WpfApp\obj\Debug\WpfApp.csproj.GenerateResource.cache
-D:\Project\WPFDemo\WpfApp\obj\Debug\WpfApp.csproj.CoreCompileInputs.cache
 D:\Project\WPFDemo\WpfApp\obj\Debug\WpfApp.exe
 D:\Project\WPFDemo\WpfApp\obj\Debug\WpfApp.pdb
+D:\Project\WPFDemo\WpfApp\obj\Debug\WpfApp.csprojResolveAssemblyReference.cache
+D:\Project\WPFDemo\WpfApp\obj\Debug\Page.g.cs
+D:\Project\WPFDemo\WpfApp\bin\Debug\Paginations.dll
+D:\Project\WPFDemo\WpfApp\obj\Debug\WpfApp_Content.g.cs
+D:\Project\WPFDemo\WpfApp\obj\Debug\Page.baml
