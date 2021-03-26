@@ -45,5 +45,7 @@
             </DataGrid.Columns>
         </DataGrid>
         <Button Content="修 改" HorizontalAlignment="Left" Margin="21,31,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Click="Btn_Import_Click" Name="Btn_Import" Content="导 入" HorizontalAlignment="Left" Margin="138,31,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Click="Btn_Export_Click" Name="Btn_Export" Content="导 出" HorizontalAlignment="Left" Margin="241,31,0,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Window>

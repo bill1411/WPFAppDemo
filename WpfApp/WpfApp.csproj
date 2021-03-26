@@ -68,6 +68,7 @@
     <Compile Include="Grid.xaml.cs">
       <DependentUpon>Grid.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Helper\OfficeHelper.cs" />
     <Compile Include="Page.xaml.cs">
       <DependentUpon>Page.xaml</DependentUpon>
     </Compile>

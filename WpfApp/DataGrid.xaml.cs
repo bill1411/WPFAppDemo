@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using WpfApp.Helper;
 
 namespace WpfApp
 {
@@ -166,6 +168,22 @@ namespace WpfApp
                 MessageBox.Show(result);
             }
             
+        }
+
+        private void Btn_Import_Click(object sender, RoutedEventArgs e)
+        {
+            DataSet ds = OfficeHelper.ReadExcel("D:\\123.xls", "Sheet1");
+            for (int i = 0; i < ds.Tables.Count; i++)
+            {
+                //这里做处理
+            }
+        }
+
+        private void Btn_Export_Click(object sender, RoutedEventArgs e)
+        {
+            DataSet ds = OfficeHelper.ReadExcel("D:\\123.xls", "Sheet1");
+            File.Create("D:\\会员名单.xls");
+            OfficeHelper.WriteExcel("D:\\会员名单.xls", ds, "Sheet1");
         }
     }
 }

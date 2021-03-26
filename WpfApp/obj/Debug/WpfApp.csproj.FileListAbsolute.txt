@@ -42,8 +42,10 @@ D:\Project\WPFDemo\WpfApp\obj\Debug\WpfApp.Properties.Resources.resources
 D:\Project\WPFDemo\WpfApp\obj\Debug\WpfApp.csproj.GenerateResource.cache
 D:\Project\WPFDemo\WpfApp\obj\Debug\WpfApp.exe
 D:\Project\WPFDemo\WpfApp\obj\Debug\WpfApp.pdb
-D:\Project\WPFDemo\WpfApp\obj\Debug\WpfApp.csprojResolveAssemblyReference.cache
 D:\Project\WPFDemo\WpfApp\obj\Debug\Page.g.cs
 D:\Project\WPFDemo\WpfApp\bin\Debug\Paginations.dll
 D:\Project\WPFDemo\WpfApp\obj\Debug\WpfApp_Content.g.cs
 D:\Project\WPFDemo\WpfApp\obj\Debug\Page.baml
+D:\Project\WPFDemo\WpfApp\obj\Debug\WpfApp.csprojAssemblyReference.cache
+D:\Project\WPFDemo\WpfApp\obj\Debug\WpfApp.csproj.CoreCompileInputs.cache
+D:\Project\WPFDemo\WpfApp\obj\Debug\WpfApp.csproj.CopyComplete
