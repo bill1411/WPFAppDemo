@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -155,10 +156,14 @@ namespace WpfApp
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+
             List<int> list = GetSelectedIds();
             foreach (var item in list)
             {
                 MessageBox.Show("选中行当Index是：" + item);
+                dynamic a = this.dataGrid.SelectedItem;
+                string result = a.name.ToString();
+                MessageBox.Show(result);
             }
             
         }
